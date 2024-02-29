@@ -1,0 +1,84 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-Items {
+  padding: 0 40px;
+}
+
+.nav-Items > ul {
+  font-size: larger;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-Items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.rescard {
+  border: 1px solid #000;
+  width: 279.462px;
+  height: 350px;
+  padding: 5px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.RestaurantLogo {
+  object-fit: cover;
+  border-radius: 5px;
+  width: 278.862px;
+  height: 248px;
+}
+
+.top {
+  justify-content: space-between;
+  display: flex;
+}
+
+.Name {
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.quick, .loc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+
+.rating {
+  background-color: #13a524;
+  border-radius: 4px;
+  align-items: center;
+  width: 40px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  display: flex;
+}
+
+.star {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.value {
+  color: #f0f8ff;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=index.0614d9f2.css.map */

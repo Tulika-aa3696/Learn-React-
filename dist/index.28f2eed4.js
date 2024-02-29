@@ -2961,7 +2961,6 @@ const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "title",
         children: [
             First,
-            "  //Javascript inside JSX",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 children: "This is Component 01"
             }, void 0, false, {

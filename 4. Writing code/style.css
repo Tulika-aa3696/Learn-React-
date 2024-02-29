@@ -1,0 +1,90 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-Items{
+    padding: 0px 40px;
+
+}
+.nav-Items > ul {
+    font-size:larger;
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav-Items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.rescard {
+    padding: 5px;
+    width: 279.462px;
+    height: 350px;
+    border: 1px solid black;
+
+    
+}
+
+.search {
+    padding:10px;
+}
+
+.RestaurantLogo {
+    width: 278.862px;
+    height: 248px; 
+    object-fit: cover; /* Ensures the image covers the specified dimensions */
+    border-radius: 5px; /* Adds rounded corners */
+  }
+.top {
+    display:flex;
+    justify-content: space-between;
+}
+.Name {
+    margin-top: 8px; /* Adjust top margin as needed */
+    margin-bottom: 6px; /* Adjust left margin as needed */
+}
+
+.quick {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+
+.loc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+
+.rating {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    background-color: rgb(19, 165, 36);
+    height: 20px; /* Adjust height as needed */
+    width: 40px; /* Adjust width as needed */
+    border-radius: 4px;
+}
+
+.star {
+    margin-right: 5px; /* Add spacing between the star and the value */
+    margin-left: 5px;
+    height:10px;
+    width:10px;
+}
+
+.value {
+    /* Add spacing between the star and the value */
+    margin-left: 5px;
+    color: aliceblue;
+}
